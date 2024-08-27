@@ -1,0 +1,95 @@
+/* Write your CSS here */
+.latest-match-containe {
+  display: flex;
+  flex-direction: row;
+  padding: 20px;
+}
+.latest-match-heading {
+  color: #ffffff;
+  font-family: 'Bree Serif';
+  font-size: 25px;
+}
+.details-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: #0f172a;
+  padding: 10px;
+  border-radius: 15px;
+}
+.latest-match-details-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.details-container-1 {
+  display: flex;
+  flex-direction: column;
+  font-family: 'Bree Serif';
+  color: #ffffff;
+  width: 30vw;
+  margin-left: 15px;
+}
+.competing-team {
+  font-size: 30px;
+}
+.date {
+  font-size: 27px;
+}
+.venue {
+  font-size: 20px;
+}
+.result {
+  font-size: 20px;
+}
+.latest-team-logo {
+  height: 10vh;
+  margin-left: 3vw;
+}
+.line {
+  border-width: 0px;
+}
+.details-container-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  font-family: 'Bree Serif';
+  color: #ffffff;
+  width: 30vw;
+  margin-right: 15px;
+}
+.label {
+  font-size: 25px;
+}
+.value {
+  font-size: 20px;
+}
+@media screen and (max-width: 767px) {
+  .latest-match-heading {
+    font-size: 15px;
+  }
+  .details-container-1 {
+    margin-left: 5px;
+  }
+  .competing-team {
+    font-size: 20px;
+  }
+  .date {
+    font-size: 17px;
+  }
+  .venue {
+    font-size: 10px;
+  }
+  .result {
+    font-size: 10px;
+  }
+  .details-container-2 {
+    margin-right: 5px;
+  }
+  .label {
+    font-size: 15px;
+  }
+  .value {
+    font-size: 10px;
+  }
+}

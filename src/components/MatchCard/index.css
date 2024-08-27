@@ -1,0 +1,47 @@
+/* Write your CSS here */
+.match-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  background-color: #0f172a;
+  font-family: 'Bree Serif';
+  margin: 10px;
+  padding: 10px;
+  width: 28vw;
+}
+.team-name {
+  font-size: 25px;
+  color: #ffffff;
+  text-align: center;
+}
+.result {
+  font-size: 17px;
+  color: #ffffff;
+  text-align: center;
+}
+.match-status {
+  font-size: 20px;
+}
+.won-match {
+  color: #18ed66;
+}
+.lost-match {
+  color: #e31a1a;
+}
+@media screen and (max-width: 767px) {
+  .match-list {
+    width: 40vw;
+    margin: 7px;
+  }
+  .team-name {
+    font-size: 15px;
+  }
+  .result {
+    font-size: 10px;
+  }
+  .match-status {
+    font-size: 12px;
+  }
+}

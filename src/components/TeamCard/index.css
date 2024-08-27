@@ -1,0 +1,40 @@
+/* Write your CSS here */
+.link {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-decoration: none;
+  height: 15vh;
+  width: 30vw;
+  border-radius: 10px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #ffffff;
+  background-color: #ffffff33;
+  margin: 10px;
+  padding: 20px;
+}
+.team-logo {
+  height: 10vh;
+  width: 10vw;
+  margin-right: 20px;
+}
+.name {
+  color: #ffffff;
+  font-family: 'Bree Serif';
+  font-size: 22px;
+}
+@media screen and (max-width: 767px) {
+  .link {
+    height: 20vh;
+    width: 35vw;
+    padding: 10px;
+    margin: 8px;
+  }
+  .team-logo {
+    margin-right: 10px;
+  }
+  .name {
+    font-size: 10px;
+  }
+}
